@@ -40,7 +40,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	color:#94a3a8;
+	color:#4f5152;
 }
 strong, b {
 	font-weight:600;
@@ -314,9 +314,9 @@ to {
 	padding: 45px 0;
 }
 .alertMsg {
-	font-size: 18px;
+	font-size: 16px;
 	display: block;
-	padding: 5px 10px;
+	padding-top: 5px;
 	text-align:center;
 }
 .masthead .form-control {
@@ -567,6 +567,9 @@ to {
 	margin-bottom:25px;
 }
 
+.faq img {
+    padding: 4px 7px;
+}
 /*==========8. FOOTER ==============*/
 
 
