@@ -531,17 +531,18 @@ to {
 }
 .pricing .price .per {
 	display:inline-block;
-	font-size:20px;
+	font-size:30px;
+	margin: 28px 0;
 	vertical-align: baseline;
 }
 .color1 {
 	background-color:#5ca2e0;
 }
 .color2 {
-	background-color:#7676c6;
+	background-color:#ed145b;
 }
 .color3 {
-	background-color:#885fc1;
+	background-color:#5c6166;
 }
 /* Animation */
 
