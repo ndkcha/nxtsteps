@@ -6,7 +6,7 @@
 Theme Name: Startup Responsive Landing page Template
 Version: 1.0
 Author: Surjith SM
-Author URI: http://themeforest.net/user/surjithctly
+Revision: Viral Kacha
 */
 
 
@@ -18,15 +18,11 @@ Author URI: http://themeforest.net/user/surjithctly
 2. HEADER
 3. HERO IMAGE
 4. FEATURES
-5. TESTIMONIALS
-6. PLANS AND PRICING
-7. FAQ
+6. DOWNLOADS
+7. ABOUT
 8. FOOTER
 9. CUSTOM MEDIA QUERIES
 10. BLOG
-
-If you having trouble in editing css. please send a mail to support@surjithctly.in - 
-I will really help you
 
 */
 
@@ -500,9 +496,9 @@ to {
 	transform:scale(1.05);
 	z-index:2;
 }
-/*========== 6. PLANS AND PRICING ==============*/
+/*========== 6. DOWNLOADS ==============*/
 
-.pricing {
+.downloading {
 	padding:25px;
 	color:#FFF;
 	text-align:center;
@@ -510,49 +506,50 @@ to {
 	-moz-border-radius:5px;
 	border-radius:5px;
 }
-.pricing .planname {
+.downloading .platform {
 	text-transform:uppercase;
 	font-weight:600;
 }
-.pricing .price {
+.downloading .icon {
 	font-size:52px;
 	font-weight:300;
 	margin:10px 0;
 }
-.pricing .billing {
+.downloading .downlink {
 	text-transform:uppercase;
 	color:#FFF;
 	opacity:0.7;
 }
-.pricing .price .curr {
+.downloading .icon .curr {
 	display:inline-block;
 	font-size:20px;
 	vertical-align:super;
 }
-.pricing .price .per {
+.downloading .icon .per {
 	display:inline-block;
-	font-size:20px;
+	font-size:30px;
+	margin: 28px 0;
 	vertical-align: baseline;
 }
 .color1 {
 	background-color:#5ca2e0;
 }
 .color2 {
-	background-color:#7676c6;
+	background-color:#ed145b;
 }
 .color3 {
-	background-color:#885fc1;
+	background-color:#5c6166;
 }
 /* Animation */
 
-.pricing {
+.downloading {
 	-moz-transition:all 0.6s ease;
 	-webkit-transition:all 0.6s ease;
 	-ms-transition:all 0.6s ease;
 	-o-transition:all 0.6s ease;
 	transition:all 0.6s ease;
 }
-.pricing:hover {
+.downloading:hover {
 	-moz-transform:scale(1.05);
 	-webkit-transform:scale(1.05);
 	-o-transform:scale(1.05);
@@ -561,7 +558,7 @@ to {
 	z-index:2;
 }
 
-/*========== 7. FAQ ==============*/
+/*========== 7. ABOUT ==============*/
 
 .faq p {
 	margin-bottom:25px;
@@ -616,7 +613,7 @@ font-size: 35px;
  .testimonials [class*="col-"]:not(:first-child) {
  margin-top: 40px;
 }
- .planpricing [class*="col-"]:not(:first-child) {
+ .downloads [class*="col-"]:not(:first-child) {
  margin-top: 30px;
 }
  .breath {
