@@ -650,18 +650,20 @@ padding: 40px 15px;
 
  @media (max-device-width: 992px) {
 	 
-.masthead {
-	height: 300vh;
-	background-repeat: no-repeat;
-	background-position: top center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: contain;
-	background-image:url(../images/iPhoneLandingPage_HighRes.png);
-}
+	.masthead {
+		height: 300vh;
+		background-repeat: no-repeat;
+		background-position: top center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: contain;
+		background-image:url(../images/iPhoneLandingPage_HighRes.png);
+	}
 
-	 
+	 .nd-responsive {
+		height: 80vh;
+	 }
  }
  
  
