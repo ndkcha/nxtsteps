@@ -31,33 +31,36 @@
             <div class="logo">
                 <!-- Automint Logo -->
                 <div class="logo">
-                <a href="#"><img src="images/automint-logo.png" style="opacity: 0" alt="automint-logo"></a>
+                    <a href="#"><img src="images/automint-logo.png" style="opacity: 0" alt="automint-logo"></a>
                 </div>
             </div>
             <!-- Hero Title -->
             <h1>&nbsp;<strong>&nbsp;</strong>
                 <br>&nbsp;</h1>
+            <div style="height: 80vh"></div>
             <!-- Google Subscribe form -->
-            <div class="row nd-responsive">
+            <div class="row">
                 <div id="test-vrl" class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-                    <form class="form-horizontal" role="form" action="javascript: collectIt()" id="collectorForm" method="POST" target="_self"
-                        onsubmit="">
+                    <form class="form-horizontal" role="form" action="javascript: collectIt()" id="collectorForm"
+                        method="POST" target="_self" onsubmit="">
                         <div class="form-group">
                             <div class="col-md-6 col-sm-4">
-                                <input class="form-control input-lg" style="box-shadow: 0px 0px 3px rgba(240, 140, 102); border: rgba(240, 140, 102)" id="contact" placeholder="Enter your email" required="required">
+                                <input class="form-control input-lg" style="box-shadow: 0px 0px 3px rgba(240, 140, 102); border: rgba(240, 140, 102)"
+                                    id="contact" placeholder="Enter your email" required="required">
                             </div>
                             <div class="col-md-3 col-sm-4">
                                 <button type="submit" class="btn btn-primary btn-lg">Sign Up!</button>
                             </div>
                         </div>
                     </form>
-                    <span id="result" class="alertMsg" style="color: rgba(240, 140, 102)"></span> </div>
+                    <span id="result" class="alertMsg" style="color: rgba(240, 140, 102)"></span>
+                </div>
             </div>
             <!-- // Mailchimp Subscribe form Ends -->
         </div>
     </main>
     <!-- // Parallax Header Ends -->
-    
+
     <!-- JS and analytics only. -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
@@ -91,9 +94,9 @@
     </script>
     <!--============== COLLECTOR FORM =================-->
     <script type="text/javascript">
-        function collectIt() {        
-            var contact = $('#contact').val();         
-            $.ajax({                
+        function collectIt() {
+            var contact = $('#contact').val();
+            $.ajax({
                 // url: "https://docs.google.com/forms/d/1fmVE-IJ3sssYFgXapPAiCuX5SQToYpW7uuXnEZ15QAE/formResponse",
                 url: "https://docs.google.com/forms/d/e/1FAIpQLScQ7GxExRcxajBLikn9XhHBWpiIQl7yz7vm9qsAp_W_GP3OSQ/formResponse",
                 data: {
@@ -101,13 +104,13 @@
                 },
                 type: "POST",
                 dataType: "xml",
-                statusCode: {                    
+                statusCode: {
                     0: function () {
                         $('#test-vrl').hide;
                         $('#result').html('Thank you! We will contact you shortly!');                      //Success message
                         $('#contact').val("");
-                    }              
-                }            
+                    }
+                }
             });
         }
     </script>
