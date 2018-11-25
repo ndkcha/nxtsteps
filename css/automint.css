@@ -651,7 +651,7 @@ padding: 40px 15px;
  @media (max-device-width: 992px) {
 	 
 .masthead {
-	height: 120vh;
+	height: 200vh;
 background-size: cover;
 background-attachment: scroll;
 background-image:url(../images/iPhoneLandingPage_HighRes.png);
@@ -661,7 +661,7 @@ background-image:url(../images/iPhoneLandingPage_HighRes.png);
 	width: 90%;
 	text-align: center;
 	position: absolute;
-	bottom: 0px;
+	top: 140vh;
 }
 	 
  }
