@@ -646,7 +646,6 @@ padding: 40px 15px;
 }
 
 
-
 /*=== v1.1 ===*/
 
  @media (max-device-width: 992px) {
@@ -656,6 +655,13 @@ padding: 40px 15px;
 background-size: cover;
 background-attachment: scroll;
 background-image:url(../images/iPhoneLandingPage_HighRes.png);
+}
+
+.nd-responsive {
+	width: 90%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
 }
 	 
  }
