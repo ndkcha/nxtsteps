@@ -16,7 +16,7 @@
 <![endif]-->
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <!-- <link rel="shortcut icon" href="images/ico/favicon.png"> -->
     <script src="js/pace.js"></script>
     <!-- Custom Google Font : Open Sans -->
 
@@ -26,28 +26,28 @@
 <body>
     <div class="preloader"></div>
     <!-- Parallax Header Starts -->
-    <main id="top" class="masthead" role="main">
+    <main id="top" class="masthead" role="main" style="min-height: 100vh">
         <div class="container">
             <div class="logo">
                 <!-- Automint Logo -->
                 <div class="logo">
-                <a href="#"><img src="images/automint-logo.png" alt="automint-logo"></a>
+                <a href="#"><img src="images/automint-logo.png" style="opacity: 0" alt="automint-logo"></a>
                 </div>
             </div>
             <!-- Hero Title -->
-            <h1>nxt<strong>steps</strong>
-                <br> your AI powered <strong>wellness</strong> coach</h1>
+            <h1>&nbsp;<strong>&nbsp;</strong>
+                <br>&nbsp;</h1>
             <!-- Google Subscribe form -->
             <div class="row">
-                <div id="test-vrl" class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+                <div id="test-vrl" class="col-md-6 col-sm-12 col-md-offset-3 subscribe" style="position: absolute; bottom: -10px;">
                     <form class="form-horizontal" role="form" action="javascript: collectIt()" id="collectorForm" method="POST" target="_self"
                         onsubmit="">
                         <div class="form-group">
-                            <div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
-                                <input class="form-control input-lg" id="contact" placeholder="Enter your mobile or email" required="required">
+                            <div class="col-md-6 col-sm-4">
+                                <input class="form-control input-lg" style="box-shadow: 0px 0px 3px rgba(240, 140, 102)" id="contact" placeholder="Enter your email" required="required">
                             </div>
-                            <div class="col-md-5 col-sm-4">
-                                <button type="submit" class="btn btn-primary btn-lg">Free Demo</button>
+                            <div class="col-md-3 col-sm-4">
+                                <button type="submit" class="btn btn-primary btn-lg">Sign Up!</button>
                             </div>
                         </div>
                     </form>
